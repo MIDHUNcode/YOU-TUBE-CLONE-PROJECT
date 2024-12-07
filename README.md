@@ -19,6 +19,13 @@ This project is a simple clone of the popular video-sharing platform, YouTube, b
 - HTML
 - CSS
 
+## Important Note
+
+- Make sure to give link or ref in the correct path. The paths I've give are my path direction.
+- Add font-family of Arial and Import the Roboto font link from Googlre fonts
+- If the color don't match is Not a big of a deal. Approx color are ok.
+- If you've found this hard remember to practice more. As no person in the world can go to Advanced without learning from the start.   
+
 ## Installation
 
 To view the project locally, follow these steps:
