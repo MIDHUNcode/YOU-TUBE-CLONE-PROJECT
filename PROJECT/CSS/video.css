@@ -34,6 +34,21 @@
  column-gap: 25px;
  row-gap: 30px;
 }
+@media (max-width:850px){
+  .gri{
+    grid-template-columns: 1fr 1fr;
+  }
+@media (max-width:751px)and(max-width:1299px){
+    .gri{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+}
+@media (min-width:1300px){
+  .gri{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
 .gri-des{
  display: grid;
  grid-template-columns: 50px 1fr;
