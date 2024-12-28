@@ -1,0 +1,78 @@
+.a1{
+  font-size: 17px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration:underline white;
+  color: black;
+ }
+.a2{
+ color: gray;
+ margin-bottom: 4px;
+ margin-top: 0px;
+ display: flex;
+ align-items: center;
+}
+.a3{
+ color: gray;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+.thumbnail-1{
+ width: 100%;
+ border-radius: 10px;
+ }
+.prof1{
+ width: 35px;
+ border-radius: 200px;
+ margin-top: 5px;
+}
+.gri{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 25px;
+ row-gap: 30px;
+}
+@media (max-width:850px){
+  .gri{
+    grid-template-columns: 1fr 1fr;
+  }
+@media (max-width:751px)and(max-width:1299px){
+    .gri{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+}
+@media (min-width:1300px){
+  .gri{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.gri-des{
+ display: grid;
+ grid-template-columns: 50px 1fr;
+}
+.thumbnail-row{
+  position: relative;
+}
+.time{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  bottom: 8px;
+  right: 5px;
+  border-radius: 4px;
+  font-family: Roboto,arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+}
+.tick{
+  background-color: grey;
+  color: white;
+  border-radius: 200px;
+  font-size: 9px;
+  padding: 2px 5px;
+  margin-left: 4px;
+}
